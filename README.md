@@ -100,11 +100,14 @@ A baseline constant (mean prediction) model was also evaluated for adequacy chec
 _______
 
 🚀 How to Run
+
 1️⃣ Clone the repository:
 git clone https://github.com/ellyalalala/ZifraGoldMachineLearning.git
 cd ZifraGoldMachineLearning
+
 2️⃣ Install dependencies:
 pip install -r requirements.txt
+
 3️⃣ Run the notebook:
 jupyter notebook ZifraGoldML.ipynb
 
