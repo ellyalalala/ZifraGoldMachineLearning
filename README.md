@@ -70,17 +70,16 @@ Each dataset includes measurements at flotation and final purification stages, m
 
 ✅ Compared to a dummy (constant) model
 
-📈 Results
+## 📈 Results
 
-| Model             | Validation sMAPE | Test sMAPE |
-| ----------------- | ---------------- | ---------- |
-| Linear Regression | \~10.06%         | –          |
-| Decision Tree     | \~11.04%         | –          |
-| Random Forest     | **7.53%**        | **9.26%**  |
-| Dummy Model       | –                | 9.82%      |
+| Model                | Validation sMAPE | Test sMAPE |
+|-----------------------|------------------|------------|
+| Linear Regression     | ~10.06%         | –          |
+| Decision Tree         | ~11.04%         | –          |
+| Random Forest         | **7.53%**       | **9.26%** |
+| Dummy Model           | –               | 9.82%      |
 
-
-🎯 Final test prediction: Random Forest, sMAPE = 9.26%
+🎯 Final test prediction: **Random Forest, sMAPE = 9.26%**  
 The model outperformed the dummy baseline, confirming its adequacy.
 
 
