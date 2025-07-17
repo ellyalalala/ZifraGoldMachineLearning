@@ -63,14 +63,14 @@ Each dataset includes measurements at flotation and final purification stages, m
 ✅ Models evaluated using cross-validation with sMAPE metric
 
 ✅ Chose **random forest** model with parameters:
-```python
+
 {'max_depth': 1, 'n_estimators': 6}
 
 ✅ Tested on the test set
 
 ✅ Compared to a dummy (constant) model
 
-## 📈 Results
+### 📈 Results
 
 | Model                | Validation sMAPE | Test sMAPE |
 |-----------------------|------------------|------------|
