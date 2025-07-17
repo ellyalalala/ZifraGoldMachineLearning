@@ -83,7 +83,7 @@ Each dataset includes measurements at flotation and final purification stages, m
 The model outperformed the dummy baseline, confirming its adequacy.
 
 
-📊 Conclusion
+### 📊 Conclusion
 
 Analysis of metal concentrations showed that gold concentration significantly increases at each stage of ore processing. During the analysis of the total concentration of substances at different stages, anomalies were identified and removed to improve the quality of future predictive models. Based on the distribution, these anomalies were likely outliers.
 
