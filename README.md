@@ -71,6 +71,7 @@ Each dataset includes measurements at flotation and final purification stages, m
 ✅ Compared to a dummy (constant) model
 
 📈 Results
+
 | Model             | Validation sMAPE | Test sMAPE |
 | ----------------- | ---------------- | ---------- |
 | Linear Regression | \~10.06%         | –          |
@@ -78,11 +79,13 @@ Each dataset includes measurements at flotation and final purification stages, m
 | Random Forest     | **7.53%**        | **9.26%**  |
 | Dummy Model       | –                | 9.82%      |
 
+
 🎯 Final test prediction: Random Forest, sMAPE = 9.26%
 The model outperformed the dummy baseline, confirming its adequacy.
 
 
 📊 Conclusion
+
 Analysis of metal concentrations showed that gold concentration significantly increases at each stage of ore processing. During the analysis of the total concentration of substances at different stages, anomalies were identified and removed to improve the quality of future predictive models. Based on the distribution, these anomalies were likely outliers.
 
 On the training data, models of linear regression, decision tree, and random forest were trained and evaluated. As a result, the Random Forest model was selected for further prediction, with optimal parameters:
@@ -106,8 +109,10 @@ pip install -r requirements.txt
 3️⃣ Run the notebook:
 jupyter notebook ZifraGoldML.ipynb
 
-______
-🛠 Tech Stack
+_______
+
+🛠 Tech Stack:
+
 Python 3.x
 
 pandas, NumPy
